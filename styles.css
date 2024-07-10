@@ -85,7 +85,7 @@ section {
 }
 
 #about .container {
-  /*background: rgba(0, 0, 0, 0.6);*/
+  background: rgba(0, 0, 0, 0.6);
   padding: 40px;
   border-radius: 10px;
 }
