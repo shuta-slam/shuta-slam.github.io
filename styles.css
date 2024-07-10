@@ -73,7 +73,7 @@ section {
   background-size: cover;
   padding: 60px 0; /* Ensure padding is added so content isn't hidden */
   color: #fff; /* Set text color to contrast with the background */
-  /*text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add text shadow for better readability */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add text shadow for better readability */
 }
 
 #projects,
