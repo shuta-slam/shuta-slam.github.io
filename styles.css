@@ -68,8 +68,15 @@ section {
   padding: 60px 0;
 }
 
+#about {
+  background: url("images/background.png") no-repeat center center;
+  background-size: cover;
+  padding: 60px 0; /* Ensure padding is added so content isn't hidden */
+  color: #fff; /* Set text color to contrast with the background */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add text shadow for better readability */
+}
+
 #projects,
-#about,
 #contact {
   background: var(--light-text-color);
   margin: 20px 0;
@@ -128,14 +135,7 @@ section {
 }
 
 /* About and Contact Sections */
-#about {
-  background: url("screenshots/bigone1.jpg") no-repeat center center;
-  background-size: cover;
-  padding: 60px 0;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 05);
-}
-
+#about,
 #contact p {
   font-size: 1.1em;
 }
