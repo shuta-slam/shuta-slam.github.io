@@ -76,7 +76,6 @@ section {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Optional: add text shadow for better readability */
 }
 
-#projects,
 #contact {
   background: var(--light-text-color);
   margin: 20px 0;
@@ -98,6 +97,11 @@ section {
 
 /* Projects */
 /* Project Section Styling */
+#projects {
+  text-align: center; /* Center the content horizontally */
+  padding: 40px 0; /* Add padding above and below the projects section */
+}
+
 #projects .container {
   display: flex;
   flex-wrap: wrap; /* Wrap to next line if there are too many items */
