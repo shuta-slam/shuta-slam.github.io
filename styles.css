@@ -77,13 +77,13 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#projects .container,
 #about .container {
   background: rgba(0, 0, 0, 0.6);
   padding: 40px;
   border-radius: 10px;
 }
 
+#projects .container,
 #contact .container {
   background: var(--light-text-color);
   padding: 40px;
