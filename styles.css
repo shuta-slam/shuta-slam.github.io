@@ -69,7 +69,7 @@ section {
 }
 
 #about {
-  background: url("images/background.png") no-repeat center center;
+  background: url("screenshots/takeoff1.jpg") no-repeat center center;
   background-size: cover;
   padding: 60px 0; /* Ensure padding is added so content isn't hidden */
   color: #fff; /* Set text color to contrast with the background */
