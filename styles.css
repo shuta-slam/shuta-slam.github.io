@@ -105,13 +105,13 @@ section {
 }
 
 .project {
-  flex: 1 1 45%; /* Adjust size and spacing of each project */
-  margin: 20px;
+  flex: 1 1 calc(30% - 20px); /* Adjust size and spacing of each project */
+  margin: 20px 0;
   padding: 20px;
   background: #fff; /* Background color for project cards */
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 45%; /* Ensure projects don't get too wide */
+  max-width: calc(30% - 20px); /* Ensure projects don't get too wide */
 }
 
 .project img {
