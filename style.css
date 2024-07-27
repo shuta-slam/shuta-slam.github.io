@@ -1,0 +1,30 @@
+.contact {
+  background-color: rgb(91, 212, 212);
+}
+
+.footer {
+  background-color: rgb(182, 246, 246);
+}
+
+.text-body-emphasis {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.btn-contact {
+  background-color: rgb(149, 170, 170);
+  border: none;
+}
+
+.header {
+  background-color: rgb(182, 246, 246);
+  max-width: 100%;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
